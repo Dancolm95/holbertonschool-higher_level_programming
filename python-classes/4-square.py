@@ -3,14 +3,15 @@
     This module contains a class Square
 """
 
+
 class Square:
     """ class Square
         This method represent a Square
     """
-    def __init__(self, size):
+    def __init__(self, size=0):
         """__init__
             This methos initialize a Square
-            
+
             Attributes:
                 size(int): The size of a Square
 
