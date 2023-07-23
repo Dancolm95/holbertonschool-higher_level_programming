@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 """Square Class
 
-Esta clase no realiza ninguna accion
+Este modulo contiene una clase Square y esta vacio
 
 """
+
+
 class Square:
+    """ clase para representar un cuadrado
+    """
     pass
