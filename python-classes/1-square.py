@@ -4,10 +4,14 @@
 Este modulo  contiene una clase llamda Square
 
 """
+
 class Square:
-"""
-Esta clase representa a un cuadrado
-"""
+
+    """
+
+    Esta clase representa a un cuadrado.
+
+    """
 
     def __init__(self, size):
         """
