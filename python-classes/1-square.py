@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 """ Square class
+
+Este modulo  contiene una clase llamda Square
+
 """
 class Square:
 
@@ -8,6 +11,6 @@ class Square:
         el método __init__ inicializa el valor size.
         
         Atributos:
-            size : Es el tamaño del cuadrado
+            size (int): Es el tamaño del cuadrado
         """
         self.__size = size
