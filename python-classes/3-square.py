@@ -3,6 +3,7 @@
     this module contain a Square class
 """
 
+
 class Square:
     """class Square
         This class represent a Square.
@@ -33,4 +34,4 @@ class Square:
         """area
             Returns the square area.
         """
-        return self.__size**2
+        return self.__size ** 2
