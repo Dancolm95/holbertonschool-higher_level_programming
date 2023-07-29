@@ -6,6 +6,7 @@ this module ocntain class Square
 
 Rectangle = __import__('9-rectangle').Rectangle
 
+
 class Square(Rectangle):
     """
     This cllss inherits from rectangle that inherits BaseGeometry
