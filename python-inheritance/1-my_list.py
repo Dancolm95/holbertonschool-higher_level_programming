@@ -1,18 +1,19 @@
 #!/usr/bin/python3
 """
-this module contain a class called Mylist
+Module that contains a class MyList
+
 """
 
 
 class MyList(list):
     """
-    this class contain a method print_sorted
+    Class with method print_sorted
     """
     pass
 
     def print_sorted(self):
         """
-        this method sorted a list
+        Methot that sorted a list
         """
 
         print(sorted(list(self)))
