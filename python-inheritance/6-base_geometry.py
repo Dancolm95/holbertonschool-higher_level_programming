@@ -15,4 +15,4 @@ class BaseGeometry:
         method calculated area
         """
 
-        raise Exception("area() is not implementd")
+        raise Exception("area() is not implemented")
