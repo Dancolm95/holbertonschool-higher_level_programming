@@ -10,7 +10,7 @@ class Rectangle(BaseGeometry):
     """
     Rectangle class inherits from baseGeometry
     """
-    
+
     def __init__(self, width, height):
         """
         this method for initialized the attributes
