@@ -6,7 +6,6 @@ this module contain a class Square
 Rectangle = __import__('9-rectangle').Rectangle
 
 
-
 class Square(Rectangle):
     """
     this class that inherits from Rectangle that inherits BaseGeometry
@@ -23,7 +22,7 @@ class Square(Rectangle):
 
     def area(self):
         """
-        This mnethod return rectangle area 
+        This mnethod return rectangle area
         """
 
         return self.__size ** 2
