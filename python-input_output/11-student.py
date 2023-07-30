@@ -39,4 +39,3 @@ class Student:
 
         for j_key, j_value in json.items():
             self.__dict__[j_key] = j_value
-
