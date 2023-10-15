@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""this is the first task, 1-rectangle
+"""
 
 class Rectangle:
     """The class only creates private instance attributes
