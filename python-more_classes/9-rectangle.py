@@ -11,6 +11,7 @@ class Rectangle:
             height (int): vertical dimension of rectangle, default to 0
     """
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         type(self).number_of_instances += 1
@@ -64,7 +65,7 @@ class Rectangle:
         str = ""
         for row in range(self.__height):
             for col in range(self.__width):
-                str += '#'
+                str += "{}".format(self.print_symbol)
             if self.__width != 0 and row < (self.__height - 1):
                 str += '\n'
         return str
@@ -97,4 +98,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        return cls(size, size
+        return cls(size, size)
