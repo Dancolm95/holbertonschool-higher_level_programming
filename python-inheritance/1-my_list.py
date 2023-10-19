@@ -16,4 +16,6 @@ class MyList(list):
         Methot that sorted a list
         """
 
-        print(sorted(list(self)))
+        sorted_list = self[:]
+        sorted_list.sort()
+        print(sorted_list)
