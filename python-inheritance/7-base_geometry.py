@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-this modle contin class BaseGeometry
+this module contain class BaseGeometry
 """
 
 
