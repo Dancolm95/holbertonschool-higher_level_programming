@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-"""
+""" - Object-relational mapping - task 0. Get all states"""
 
 if __name__ == '__main__':
     import sys
@@ -11,7 +10,7 @@ if __name__ == '__main__':
                  ' <database name>')
 
     conn = MySQLdb.connect(host='localhost', port=3306, user=sys.argv[1],
-                            passwd=sys.argv[2], db=sys.argv[3], charset='utf8')
+                           passwd=sys.argv[2], db=sys.argv[3], charset='utf8')
     cur = conn.cursor()
     cur.execute("SELECT * FROM states ORDER BY id ASC")
     query_rows = cur.fetchall()
@@ -19,4 +18,3 @@ if __name__ == '__main__':
         print(row)
     cur.close()
     conn.close()
-
