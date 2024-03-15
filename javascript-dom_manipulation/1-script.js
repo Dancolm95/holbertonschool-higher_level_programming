@@ -1,3 +1,4 @@
-$('DIV#red_header').click(function () {
-    $('HEADER').css('color', '#FF0000');
-  });
+
+document.addEventListener("click", () => {
+  document.querySelector("header").style.color = "#FF0000"
+});
