@@ -1,3 +1,5 @@
-document.addEventListener("click", function() {
-    div.classList.add("red")
+var boton = document.getElementById("red_header");
+var header = document.getElementById("header");
+boton.addEventListener("click", function() {
+    header.classList.add("red");
 });
